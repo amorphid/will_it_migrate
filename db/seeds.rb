@@ -8,5 +8,5 @@
 
 people = Person.create([
   { full_name: "Bob Smith"},
-  { first_name: "Jane Doe"}
+  { full_name: "Jane Doe"}
 ]);
