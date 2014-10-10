@@ -6,7 +6,7 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-people = Person.create([
+contacts = Contact.create([
   { full_name: "Bob Smith"},
   { full_name: "Jane Doe"}
 ]);
