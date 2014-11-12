@@ -30,4 +30,4 @@ Run "bundle exec rake db:drop db:migrate":
 ActiveRecord migrations that mutate data:
 - introduce intermittent bugs, which is bad
 - are safer when run with begin/rescue/end (see comment in #20141010172135)
-- are not obviously better than using a Rake tast to accomplish the same thing
+- are not obviously better than using a Rake task to accomplish the same thing
